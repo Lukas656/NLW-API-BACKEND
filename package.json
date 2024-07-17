@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API da aplicação desafio da Rocketseat \"NLW 16: Journey\" - Front End",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukas656/NLW-API-BACKEND.git"
+  },
+  "author": "Lucas Santos Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lukas656/NLW-API-BACKEND/issues"
+  },
+  "homepage": "https://github.com/Lukas656/NLW-API-BACKEND#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^8.5.1",
+    "react-router-dom": "^6.7.0",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
